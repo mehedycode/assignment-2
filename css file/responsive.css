@@ -1,0 +1,461 @@
+
+/* Small Devices */
+
+
+@media screen and (max-width:576px) {
+
+  html,
+  body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+
+  .navigaton {
+    padding: 40px 30px 50px;
+
+  }
+
+  .brand h2 {
+    color: #E6533C;
+    font-size: 35px;
+  }
+
+  .list-itams {
+    border: none;
+
+  }
+
+  .list-itams ul li {
+    display: none;
+  }
+
+  .list-itams li:last-child {
+    display: block;
+    margin-right: 0px;
+
+
+  }
+
+
+  /* Hero-Section */
+
+
+  .hero-section {
+    align-items: flex-start;
+    padding: 0px 30px;
+    flex-direction: column;
+
+  }
+
+
+  .hero-content h1 {
+    font-size: 45px;
+    margin-bottom: 28px;
+    width: 50%;
+  }
+
+  .hero-content h1 span {
+    font-size: 90px;
+    line-height: 0px;
+
+  }
+
+  .hero-content p {
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 28px;
+    width: 40%;
+  }
+
+  .btn-priamry,
+  .hero-btn {
+    font-size: 14px;
+
+  }
+
+  .btn-priamry span {
+    display: none;
+  }
+
+  .hero-btn {
+    margin-left: 10px;
+  }
+
+  .hero-img {
+    margin-top: 48px;
+    margin-left: 50px;
+
+  }
+
+  .hero-img img {
+    width: 100%;
+
+  }
+
+  .stick1 {
+    bottom: 250px;
+    right: 200px;
+    width: 155px;
+    padding: 15px 0px;
+  }
+
+  .content-box span {
+    font-size: 18px;
+
+
+  }
+
+  .content-box p {
+    font-size: 12px;
+    margin-top: 5px;
+  }
+
+  .stick2 {
+    padding: 12px 18px;
+    top: 71px;
+    right: 10px;
+  }
+
+  .content-box2 span {
+    font-size: 25px;
+  }
+
+  .content-box2 p {
+    font-size: 10px;
+  }
+
+  /* Hero Section */
+
+  .habit {
+    padding-top: 40px;
+    margin-bottom: 70px;
+  }
+
+  .habit-title h2 {
+    font-size: 30px;
+    margin-bottom: 14px;
+  }
+
+  .habit-title p {
+    font-size: 14px;
+    width: 70%;
+  }
+
+  .habit-card-container {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 35px;
+  }
+
+  .itams h4 {
+    font-size: 18px;
+    margin-bottom: 6px;
+
+  }
+
+  .itams p {
+    font-size: 14px;
+    width: 40%;
+  }
+
+
+  /* Run Section */
+
+  .run {
+    padding: 30px 33px;
+    margin: 0px 30px;
+    gap: 40px;
+    flex-direction: column;
+    align-items: start;
+  }
+
+  .run-img img:first-child {
+    display: none;
+  }
+
+  .run-img img:last-child {
+    display: block;
+  }
+
+
+  .run-content h2 {
+    font-size: 40px;
+    margin-bottom: 18px;
+
+
+  }
+
+
+  .run-content p {
+    font-size: 15px;
+    margin-bottom: 28px;
+    line-height: 24px;
+  }
+
+  .btn-parants {
+    text-align: center;
+  }
+
+  .run-btn {
+    padding: 16px 100px;
+    font-size: 18px;
+  }
+
+  .run-img,
+  .run-content {
+    width: 100%;
+  }
+
+  /* Exercises Section */
+
+  .training-exercises {
+    margin: 0px 30px;
+    margin-top: 70px;
+    padding-bottom: 40px;
+  }
+
+  .training-title h2 {
+    font-size: 35px;
+    margin-bottom: 15px;
+  }
+
+  .training-title p {
+    font-size: 12px;
+    width: 70%;
+    margin-bottom: 0px;
+  }
+
+  .exercises-img-container {
+    height: 250px;
+    margin-top: 30px;
+
+  }
+
+  .exercises-img-container>div {
+    font-size: 8px;
+    font-weight: bold;
+  }
+
+  .content6,
+  .content3 {
+    display: none;
+  }
+
+  .content1 {
+    grid-column: 1/ span 6;
+    grid-row: 1/ span 6;
+  }
+
+  .content2 {
+    grid-column: 7/ span 6;
+    grid-row: 1/ span 6;
+  }
+
+  .content4 {
+    grid-column: 1/ span 5;
+    grid-row: 7/ span 6;
+  }
+
+  .content5 {
+    grid-column: 6/ span 7;
+    grid-row: 7/ span 6;
+  }
+
+  /* bmi-calculator title */
+
+  .bmi-calculator {
+    position: relative;
+    left: 0px;
+    margin-top: 20px;
+  }
+
+  .bmi-calculator h2 {
+    font-size: 35px;
+    margin-bottom: 15px;
+  }
+
+  .bmi-calculator p {
+    font-size: 14px;
+    width: 70%;
+  }
+
+  /* Bmi Calculator */
+
+  .bmi-calculate-container {
+    padding: 30px 40px 40px;
+    flex-direction: column;
+    align-items: start;
+    gap: 40px;
+
+  }
+
+  .bmi-calculate-chart h2 {
+    color: white;
+    font-size: 16px;
+    margin-bottom: 23px;
+  }
+
+  .bmi-calculate-chart td {
+    font-size: 12px;
+  }
+
+  .calculate-your-bmi h2 {
+
+    font-size: 16px;
+
+  }
+
+  .calculate-your-bmi p {
+    line-height: 24px;
+  }
+
+  .bmi-calculate-chart,
+  .calculate-your-bmi {
+    width: 100%;
+  }
+
+  /* Meet Our Team */
+
+  .meet-our-team {
+    margin: 0px 30px;
+  }
+
+  .team-container {
+    padding: 20px;
+    grid-template-columns: repeat(1, 1fr);
+    object-fit: cover;
+    height: 2300px;
+    gap: 20px;
+  }
+
+  .team-title h2 {
+    font-size: 32px;
+    margin-bottom: 14px;
+  }
+
+  .team-title p {
+    font-size: 14px;
+    width: 65%;
+  }
+
+  .team-container h4 {
+    font-size: 20px;
+  }
+
+  .team-container span {
+    font-size: 14px;
+  }
+
+  .team-container .team-mans2,
+  .team-mans3,
+  .team-mans5,
+  .team-mans6 {
+    padding-left: 15px;
+    padding-bottom: 15px;
+  }
+
+  .team-title {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+
+
+  /* Footer */
+
+  .footer-container {
+    grid-template-columns: repeat(1, 600px);
+    gap: 50px;
+    padding: 40px 40px;
+  }
+
+
+  .company-info h2 {
+    font-size: 40px;
+    margin-bottom: 10px;
+  }
+
+  .company-info p {
+    width: 260px;
+    font-size: 12px;
+    line-height: 20px;
+
+  }
+
+  .about-info h3 {
+    font-size: 20px;
+
+
+  }
+
+  .about-info p {
+    font-size: 14px;
+
+  }
+
+  .copyright p {
+    font-size: 14px;
+  }
+
+  /* Challanges part responsive */
+
+  .pricing-card-container {
+    margin-top: 50px;
+    grid-template-columns: repeat(1, 300px);
+    gap: 10px;
+  }
+
+  .basic-pakage {
+    margin-bottom: 50px;
+  }
+
+  .pricing-title h2 {
+    font-size: 30px;
+    margin-bottom: 25px;
+  }
+
+  .pricing-title {
+    margin-bottom: 20px;
+  }
+
+  .pricing-section {
+    padding-bottom: 50px;
+
+  }
+
+  .fitness-tips {
+
+    margin: 0px 30px;
+  }
+
+  .fitness-tips-content p {
+    width: 70%;
+  }
+
+  .fitness-tips-content h3 {
+    font-size: 20px;
+  }
+
+  .input-itams {
+    width: 80%;
+    margin-top: 10px;
+  }
+
+  .input-itams input[type="text"] {
+    width: 65%;
+    padding: 10px 0px 10px 10px;
+    border: none;
+    outline: none;
+  }
+
+  .input-itams .fitness-tips-btn {
+    width: 30%;
+    background-color: #0D0D0D;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 10px;
+    border: none;
+    margin-left: 0px;
+  }
+}
